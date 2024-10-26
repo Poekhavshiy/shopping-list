@@ -190,7 +190,6 @@ function checkUI() {
     isEditMode = false;
 }
 
-// initialize app
 function init() {
     itemForm.addEventListener('submit', onAddItemSubmit);
     itemList.addEventListener('click', onClickItem);
